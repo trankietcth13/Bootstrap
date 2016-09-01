@@ -1,0 +1,146 @@
+# Bootstrap
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Website Bootstrap</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet"  href="css/style.css">
+   <style type="text/css">
+       
+   </style>
+    </head>
+    <body>
+
+    <div class="well" align="center"  > 
+    <span >
+    <font color="white" align="center"><p class="ex1">Website Bootstrap<p></font></span>
+    </div> <!-- close div well-->
+
+        <div class="container-fluid">
+           <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-8">
+                       <nav class="navbar navbar-default">
+                              <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                  <a class="navbar-brand" href="http://localhost/demo1/index.html">Bootstrap</a>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                  <ul class="nav navbar-nav">
+                                   
+                                    <li><a href="#">Getting started</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">Components</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">Customize</a></li>
+
+                                  </ul>
+
+                                  <form class="navbar-form navbar-left">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                  </form>
+
+                                  <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#">Themes</a></li>
+                                    <li><a href="#">Expo</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                   
+                                  </ul>
+                                </div><!-- /.navbar-collapse -->
+                              </div><!-- /.container-fluid -->
+                    </nav> <!-- close navbar navbar-default -->
+                    </div> <!-- Close col-md-8 -->
+
+                    <div class="col-md-2"></div>
+                </div> <!-- Close col-md-12  -->
+          </div> <!-- Close row  -->
+
+     </div> <!-- Close Container  -->
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12">
+            <span><img src="img/bg1.jpg" width="100%" height="640" alt="responsive"></span>
+        </div>
+        </div>
+    </div>
+
+     <span>
+     <h1 align="center"> Designed for everyone, everywhere.</h1> </br>
+     </span>
+     <span>
+     <h3 align="center"> Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</h3>
+     </span>
+     </br>
+
+    <div class="row">
+        <div class="col-md-2">
+            
+        </div>
+        
+        <div class="col-md-3">
+            <span >
+                <img src="img/sass.png" width="80%" align="center">
+            </span> 
+            <h2 class="h2"><p>&nbsp &nbsp &nbsp &nbsp  Preprocessors</h2></p> 
+            <p> Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href="http://getbootstrap.com/css/#less" target="blank"> Less</a> and <a href="http://getbootstrap.com/css/#sass" target="blank">Sass</a>. Quickly get started with precompiled CSS or build on the source.</p>
+        </div>
+
+        <div class="col-md-3">
+            <img src="img/devices.png" width="80%" align="center">
+            </span> 
+            <h2 ><p>&nbsp &nbsp One framework, every device.</h2></p> 
+            <p> Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+        </div>
+        <div class="col-md-3">
+             <img src="img/components.png" width="80%" align="center">
+            </span> 
+            <h2 id="h2"><p>&nbsp &nbsp &nbsp &nbsp &nbsp  Full of features</h2></p> 
+            <p> With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+        </div>
+        </div>
+        <div class="col-md-2">
+            
+        </div>
+    </div>
+
+    <h3 align="center"> Bootstrap is open source. It's hosted, developed, and maintained on GitHub. 
+    </h3>
+    <p align="center"> <button type="button" class="btn btn-default btn-lg "><a href="https://github.com/twbs/bootstrap" target="_blank">View the GitHub project</a></button> </p>
+   <div class="well"></div>
+
+   <h1 align="center"> Built with Bootstrap. </h1>
+   <h4 align="center"> Millions of amazing sites across the web are being built with Bootstrap. Get started on your own</br> with our growing <a class="coll" href="http://getbootstrap.com/getting-started/#examples"> collection of examples</a> or by exploring some of our favorites. </h4>
+
+<div class="container">
+   <div class="row">
+     <div class="col-md-12">
+        <marquee id="marq" scrollamount="3" direction="left" loop="50" scrolldelay="0" onmouseover="this.stop()" onmouseout="this.start()">
+            <a href="Link"><img src="img/mq1.jpg" title="Website Bootstrap" width="200" height="300"/> </a>
+            <a href="Link"><img src="img/mq2.jpg" title="Website Bootstrap" width="200" height="300"/> </a>
+            <a href="Link"><img src="img/mq3.jpg" title="Website Bootstrap" width="200" height="300"/> </a>
+            <a href="Link"><img src="img/mq4.jpg" title="Website Bootstrap" width="200" height="300"/> </a>
+        </marquee>
+        
+      </div>
+   </div>
+  </div>
+</body>
+</html>
